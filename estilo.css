@@ -1,0 +1,60 @@
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    .contenedor {
+        background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: brightness(0.7);
+    }
+
+    p {
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+        padding: 1em 2em;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    #yesBtn {
+        background-color: #5347ff;
+        color: #000;
+        margin-right: 20px;
+    }
+    #yesBtn:hover {
+        background-color: #ffa726;
+        transform: scale(1.1);
+    }
+
+    #noBtn {
+        background-color: #d32f2f;
+        color: #fff;
+        position: absolute;
+    }
+    #noBtn:hover {
+        background-color: #b71c1c;
+        transform: scale(1.1);
+    }
